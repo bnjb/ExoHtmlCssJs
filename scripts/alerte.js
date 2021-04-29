@@ -5,5 +5,5 @@ var inscription = (form) => {
     let sexe = form.sexe.value;
     let ville = form.ville.value;
 
-    alerte(prenom + nom + age);
+    alert(prenom + " " + nom + " " + age + " ans "  + sexe + " "  + ville);
 }

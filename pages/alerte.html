@@ -31,29 +31,29 @@
         <div class="container">
             <div class="element">
                
-                <form onsubmit="inscription(form)">
+                <form >
                     <label for="prenom">Prénom</label><br><br>
-                    <input type="text" id="prenom" name="prenom" placeholder="prénom"><br><br>
+                    <input type="text" id="prenom" name="prenom" value="Abdel"><br><br>
 
                     <label for="nom">Nom</label><br><br>
-                    <input type="text" id="nom" name="nom" placeholder="nom"><br><br>
+                    <input type="text" id="nom" name="nom" value="Kevin"><br><br>
 
                     <label for="age">Age</label><br><br>
-                    <input type="number" id="age" name="age" placeholder="age"><br><br>
+                    <input type="number" id="age" name="age" value="8"><br><br>
                     
 
                     <label for="sexe">Sexe</label><br><br>
 
-                    <input type="radio" id="homme" name="sexe" value="homme">
+                    <input type="radio" id="homme" name="sexe" value="homme" checked>
                     <label for="homme">Homme</label><br>
                     
                     <input type="radio" id="female" name="sexe" value="femme">
                     <label for="femme">Femme</label><br><br>
 
                     <label for="ville">Ville</label><br><br>
-                    <input type="text" id="ville" name="ville" placeholder="ville"><br><br>
+                    <input type="text" id="ville" name="ville" value="106 rue du poichiche"><br><br>
 
-                    <button type="submit">M'inscrire</button>
+                    <button onclick="inscription(form)" type="submit">M'inscrire</button>
 
                   </form> 
                   
