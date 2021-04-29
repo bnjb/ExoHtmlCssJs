@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../styles/style.navbar.css">
     <link rel="stylesheet" href="../styles/style.calculatrice.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="../scripts/navbar.js"></script>
-    <script src="./scripts/calculatrice.js"></script>
+    <script type="text/javascript" src="../scripts/navbar.js"></script>
+
     <title>La calculatrice</title>
 </head>
 <body>
@@ -30,11 +30,44 @@
         <h1>Voici Calculatrice</h1>
         <div class="container">
             <div class="element">
-               
-                
+                <div class="resultat"></div>
+                <div class="buttons">
+                    <button class="clear">C</button>
+
+                    <button class="nombre" data-num="1">1</button>
+                    <button class="nombre" data-num="2">2</button>
+
+                    <button class="operateur" data-num="/">/</button>
+
+                    <button class="nombre" data-num="3">3</button>
+                    <button class="nombre" data-num="4">4</button>
+                    <button class="nombre" data-num="5">5</button>
+
+                    <button class="operateur" data-num="*">x</button>
+
+                    <button class="nombre" data-num="6">6</button>
+                    <button class="nombre" data-num="7">7</button>
+                    <button class="nombre" data-num="8">8</button>
+
+                    <button class="operateur" data-num="-">-</button>
+
+                    <button class="nombre" data-num="9">9</button>
+
+                    <button class="nombre" data-num="0">0</button>
+                    <button class="nombre point" data-num=".">.</button>
+
+                    <button class="operateur" data-num="+">+</button>
+
+                    <button class=""></button>
+                    <button class=""></button>
+                    <button class=""></button>
+
+                    <button class="egale" data-num="=">=</button>
+                </div>
             </div>
         </div>
     </div>
 
+    <script src="../scripts/calculatrice.js"></script>
 </body>
 </html>
