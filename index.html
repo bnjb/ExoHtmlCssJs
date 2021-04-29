@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.navbar.css">
+    <link rel="stylesheet" href="./styles/style.index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/index.js"></script>
+    <title>L'application</title>
+</head>
+<body>
+
+    <div id="sideBar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="../index.html">Accueil</a>
+        <a href="./pages/alerte.html">Alerte</a>
+        <a href="/pages/tournimage.html">TournImage</a>
+        <a href="/pages/calculatrice.html">Calculatrice</a>
+        <a href="/pages/clicktoprank.html">ClickToPrank</a>
+    </div>
+
+    <div id="buttonCloseOpen">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+
+    <div id="content">
+        <h1>Bienvenue sur la page des trollers</h1>
+        <h1>Sur ce site vous trouverez :</h1>
+        <div class="container">
+            <div class="element" onclick="buttonDiv('alerte')">
+                <i class="material-icons icon-center">notification_important</i>
+                <h3>Une page avec une alerte</h3>
+                <p>Il vous suffira de compléter le formulaire</p>
+                <p>Et une alerte vous préviendra !</p>
+                <p>C'est pas très utile mais on est là</p>
+                
+            </div>
+            <div class="element" onclick="buttonDiv('tournimage')">
+                <i class="material-icons icon-center">perm_media</i>
+                <h3>Une page avec une liste d'image tournante</h3>
+                <p>...</p>
+                <p>Faut pas me demander pourquoi on fait ca mais trql</p>
+                
+            </div>
+            <div class="element" onclick="buttonDiv('calculatrice')">
+                <i class="material-icons icon-center">view_module</i>
+                <h3>Une calculatrice !</h3>
+                <p>Ha la on tient quelque chose ! Ca c'est utile</p>
+                <p>Très intéressant</p>
+                
+            </div>
+            <div class="element" onclick="buttonDiv('clicktoprank')">
+                <i class="material-icons icon-center">swipe</i>
+                <h3>Une page de troller!</h3>
+                <p>C'est ca qu'on voulait !</p>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

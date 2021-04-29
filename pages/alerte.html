@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.navbar.css">
+    <link rel="stylesheet" href="../styles/style.alerte.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/alerte.js"></script>
+    <title>L'alerte</title>
+</head>
+<body>
+
+    <div id="sideBar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="../index.html">Accueil</a>
+        <a href="./alerte.html">Alerte</a>
+        <a href="./tournimage.html">TournImage</a>
+        <a href="./calculatrice.html">Calculatrice</a>
+        <a href="./clicktoprank.html">ClickToPrank</a>
+    </div>
+
+    <div id="buttonCloseOpen">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+
+    <div id="content">
+        <h1>Voici Alerte</h1>
+        <div class="container">
+            <div class="element">
+               
+                <form onsubmit="inscription(form)">
+                    <label for="prenom">Prénom</label><br><br>
+                    <input type="text" id="prenom" name="prenom" placeholder="prénom"><br><br>
+
+                    <label for="nom">Nom</label><br><br>
+                    <input type="text" id="nom" name="nom" placeholder="nom"><br><br>
+
+                    <label for="age">Age</label><br><br>
+                    <input type="number" id="age" name="age" placeholder="age"><br><br>
+                    
+
+                    <label for="sexe">Sexe</label><br><br>
+
+                    <input type="radio" id="homme" name="sexe" value="homme">
+                    <label for="homme">Homme</label><br>
+                    
+                    <input type="radio" id="female" name="sexe" value="femme">
+                    <label for="femme">Femme</label><br><br>
+
+                    <label for="ville">Ville</label><br><br>
+                    <input type="text" id="ville" name="ville" placeholder="ville"><br><br>
+
+                    <button type="submit">M'inscrire</button>
+
+                  </form> 
+                  
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
